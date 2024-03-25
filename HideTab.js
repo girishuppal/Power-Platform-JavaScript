@@ -7,3 +7,4 @@ function HideTab(executionContext)
     var formContext = executionContext.getFormContext();
     formContext.ui.tabs.get("XXX").setVisible(false);
 }
+
